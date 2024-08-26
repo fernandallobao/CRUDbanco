@@ -58,7 +58,7 @@ if __name__ == '__main__':
                                         print(f'Saldo atual: R$ {saldo:,.2f}')
                                         continue
 
-                                    case '3':
+                                    case '3': #sacar
                                         valor = float(input('Valor do saque: R$ '))
 
                                         if valor < saldo:
@@ -69,8 +69,7 @@ if __name__ == '__main__':
                                             print(f'Saldo atual: R$ {saldo:,.2f}')
                                         else:
                                             print('Não foi possivel efetuar o saque.')
-                                        
-                                        continue
+                                            continue
 
                                     case '4':
                                         break
